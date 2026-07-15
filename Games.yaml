@@ -1,0 +1,24 @@
+payload:
+  - DOMAIN-SUFFIX,anticheatexpert.com
+  # ww
+  - DOMAIN,wuwaguide.kurogames.com
+  - PROCESS-NAME,Client-Win64-Shipping.exe
+  - PROCESS-NAME,KRSDKExternal.exe
+  - PROCESS-NAME,KRWebView.exe
+  - PROCESS-NAME,com.kurogame.wutheringwaves.global
+  - DOMAIN,sdkapi.kurogame-service.xyz
+  - DOMAIN,sdkapi.kurogame-service.com
+  # ark
+  - PROCESS-NAME,Endfield.exe
+  # nte
+  - DOMAIN,mapi.pwsdk.com
+  - PROCESS-NAME,HTGame.exe
+  - PROCESS-NAME,NTEGlobalWebBooster.exe
+  - PROCESS-NAME,com.hottagames.nte
+
+  - GEOSITE,Steam
+  - GEOSITE,epicgames
+  - GEOSITE,category-games-!cn
+  # ba
+  - PROCESS-NAME,BlueArchive.exe
+  - PROCESS-NAME,com.nexon.bluearchive

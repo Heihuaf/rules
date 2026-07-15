@@ -1,0 +1,12 @@
+payload:
+  ## PikPak
+  - DOMAIN,access.pikpakdrive.com,REJECT
+  - DOMAIN,access.mypikpak.net,REJECT
+  - DOMAIN,access.pikpak.me,REJECT
+  - DOMAIN,access.mypikpak.com,REJECT
+  - DOMAIN,api-drive.mypikpak.com
+  - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-KEYWORD,dl-z01a-
+  - DOMAIN-KEYWORD,dl-a10b-
+  - IP-CIDR,219.79.223.156/32,no-resolve
+  - IP-CIDR,110.235.48.73/32,no-resolve

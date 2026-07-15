@@ -1,0 +1,27 @@
+payload:
+  # ww
+  - DOMAIN,hw-pcdownload-qcloud.aki-game.net
+  - DOMAIN,hw-pcdownload-akamai.aki-game.net
+  - DOMAIN,hw-pcdownload-aws.aki-game.net
+  - DOMAIN,pcdownload-huoshan.aki-game.net
+  - DOMAIN,cdn-huoshan-hw-mc.aki-game.net
+  - DOMAIN,cdn-huoshan-hw-mc.aki-game.net
+  - DOMAIN,cdn-akamai-hw-mc.aki-game.net
+  - DOMAIN,cdn-qcloud-hw-mc.aki-game.net
+  - DOMAIN,cdn-aws-hw-mc.aki-game.net
+  - DOMAIN,cdn-aliyun-hw-mc.aki-game.net
+  - DOMAIN,mirrors-package-mc.aki-game.net
+  - DOMAIN-KEYWORD,pcdownload
+  # nikke
+  - DOMAIN,cloud.nikke-kr.com
+  # Google Play Games
+  - DOMAIN,edgedl.me.gvt1.com
+  # bd2
+  - DOMAIN,pc.bd2.pmang.cloud
+  - DOMAIN,bd2-cdn.akamaized.net
+  # ark
+  - DOMAIN,beyond.hg-cdn.com
+  # nte
+  - PROCESS-NAME,NTEGlobalGame.exe
+  # ba
+  - DOMAIN,ba.dn.nexoncdn.co.kr

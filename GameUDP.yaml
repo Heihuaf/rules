@@ -1,0 +1,45 @@
+payload:
+  ### ww
+  ## America
+  # - IP-CIDR,43.166.132.180/32,no-resolve
+  # - IP-CIDR,129.226.127.249/32,no-resolve
+  # - IP-CIDR,129.226.209.134/32,no-resolve
+  # - IP-CIDR,129.226.211.160/32,no-resolve
+  # - IP-CIDR,150.109.107.145/32,no-resolve
+  ## EU
+  # - IP-CIDR,162.62.0.0/16,no-resolve
+  # - IP-CIDR,43.157.0.0/16,no-resolve
+  # - IP-CIDR,43.158.90.177/32,no-resolve
+  # - IP-CIDR,49.51.171.36/32,no-resolve
+  # - IP-CIDR,43.131.0.0/16,no-resolve
+  # ## HK
+  # - IP-CIDR,43.154.116.188/32,no-resolve
+  # ## ASIA
+  # - IP-CIDR,43.128.0.0/16,no-resolve
+  # - IP-CIDR,43.130.0.0/16,no-resolve
+  # - IP-CIDR,43.133.0.0/16,no-resolve
+  # - IP-CIDR,43.167.0.0/16,no-resolve
+  # - IP-CIDR,43.152.0.0/16,no-resolve
+  # - IP-CIDR,101.32.97.207/32,no-resolve
+  # - IP-CIDR,170.106.160.151/32,no-resolve
+  # - IP-CIDR,124.156.0.0/16,no-resolve
+  # - IP-CIDR,129.226.0.0/16,no-resolve
+  # - IP-CIDR,150.109.0.45/32,no-resolve
+  # ## SEA
+  # - IP-CIDR,43.134.0.0/16,no-resolve
+  # - IP-CIDR,43.153.0.0/16,no-resolve
+  # - IP-CIDR,43.156.61.160/32,no-resolve
+  # - IP-CIDR,43.159.0.0/16,no-resolve
+  # - IP-CIDR,43.163.0.0/16,no-resolve
+  # - IP-CIDR,129.226.144.132/32,no-resolve
+  ## Process
+  - AND,((PROCESS-NAME,Client-Win64-Shipping.exe),(NETWORK,UDP))
+  - AND,((PROCESS-NAME,com.kurogame.wutheringwaves.global),(NETWORK,UDP))
+  ### ark
+  - AND,((PROCESS-NAME,Endfield.exe),(NETWORK,UDP)),UDP
+  ### nte
+  - AND,((PROCESS-NAME,HTGame.exe),(NETWORK,UDP)),UDP
+  ### ba
+  # - AND,((PROCESS-NAME,BlueArchive.exe),(NETWORK,UDP)),UDP
+  # - AND,((PROCESS-NAME,com.nexon.bluearchive),(NETWORK,UDP)),UDP
+
