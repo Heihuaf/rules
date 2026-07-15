@@ -36,10 +36,10 @@ payload:
   - AND,((PROCESS-NAME,Client-Win64-Shipping.exe),(NETWORK,UDP))
   - AND,((PROCESS-NAME,com.kurogame.wutheringwaves.global),(NETWORK,UDP))
   ### ark
-  - AND,((PROCESS-NAME,Endfield.exe),(NETWORK,UDP)),UDP
+  - AND,((PROCESS-NAME,Endfield.exe),(NETWORK,UDP))
   ### nte
-  - AND,((PROCESS-NAME,HTGame.exe),(NETWORK,UDP)),UDP
+  - AND,((PROCESS-NAME,HTGame.exe),(NETWORK,UDP))
   ### ba
-  # - AND,((PROCESS-NAME,BlueArchive.exe),(NETWORK,UDP)),UDP
-  # - AND,((PROCESS-NAME,com.nexon.bluearchive),(NETWORK,UDP)),UDP
+  # - AND,((PROCESS-NAME,BlueArchive.exe),(NETWORK,UDP))
+  # - AND,((PROCESS-NAME,com.nexon.bluearchive),(NETWORK,UDP))
 
