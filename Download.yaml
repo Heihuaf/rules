@@ -1,0 +1,29 @@
+payload:
+
+  - DOMAIN-SUFFIX,r2.cloudflarestorage.com
+  - DOMAIN,cas-bridge.xethub.hf.co
+  - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-SUFFIX,objects.githubusercontent.com
+  - DOMAIN-SUFFIX,userstorage.mega.co.nz
+  - DOMAIN,c1fr-b.cdn.cr
+  - DOMAIN,c1fr-b.cdn.cr
+  ## PikPak
+  - DOMAIN,access.pikpakdrive.com,REJECT
+  - DOMAIN,access.mypikpak.net,REJECT
+  - DOMAIN,access.pikpak.me,REJECT
+  - DOMAIN,access.mypikpak.com,REJECT
+  - DOMAIN,api-drive.mypikpak.com
+  - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-KEYWORD,dl-z01a-
+  - DOMAIN-KEYWORD,dl-a10b-
+  - IP-CIDR,219.79.223.156/32,no-resolve
+  - IP-CIDR,110.235.48.73/32,no-resolve
+
+  # iwara
+  - DOMAIN,mikoto.iwara.tv,下载
+  - DOMAIN,hime.iwara.tv,下载
+  - DOMAIN,vdownload.hembed.com,下载
+  
+  - GEOSITE,category-android-app-download,下载
+  - GEOSITE,category-entertainment,下载
+  - GEOSITE,category-game-platforms-download,下载
