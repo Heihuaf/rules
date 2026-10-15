@@ -20,10 +20,10 @@ payload:
   - IP-CIDR,110.235.48.73/32,no-resolve
 
   # iwara
-  - DOMAIN,mikoto.iwara.tv,下载
-  - DOMAIN,hime.iwara.tv,下载
-  - DOMAIN,vdownload.hembed.com,下载
+  - DOMAIN,mikoto.iwara.tv
+  - DOMAIN,hime.iwara.tv
+  - DOMAIN,vdownload.hembed.com
   
-  - GEOSITE,category-android-app-download,下载
-  - GEOSITE,category-entertainment,下载
-  - GEOSITE,category-game-platforms-download,下载
+  - GEOSITE,category-android-app-download
+  - GEOSITE,category-entertainment
+  - GEOSITE,category-game-platforms-download
