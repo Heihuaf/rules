@@ -1,5 +1,4 @@
 payload:
-
   - DOMAIN-SUFFIX,r2.cloudflarestorage.com
   - DOMAIN,cas-bridge.xethub.hf.co
   - DOMAIN-SUFFIX,pixeldrain.com
@@ -7,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,userstorage.mega.co.nz
   - DOMAIN,c1fr-b.cdn.cr
   - DOMAIN,c1fr-b.cdn.cr
+  - DOMAIN-SUFFIX,patreonusercontent.com
   ## PikPak
   - DOMAIN,access.pikpakdrive.com,REJECT
   - DOMAIN,access.mypikpak.net,REJECT
